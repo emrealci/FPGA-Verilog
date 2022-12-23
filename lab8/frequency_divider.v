@@ -3,10 +3,10 @@ module frequency_divider(clk ,out);
 input clk;
 output reg [1:0] out;
 
- initial out =0;
+ initial out = 0;
  integer count1,count2;
- initial count1 =0;
- initial count2 =0;
+ initial count1 = 0;
+ initial count2 = 0;
  
   always @ (posedge clk)
   begin
